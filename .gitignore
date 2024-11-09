@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints
-env/
 my_env/
-data/
+data/processed
