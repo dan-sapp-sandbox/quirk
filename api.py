@@ -24,7 +24,7 @@ data = [
 ]
 
 # API endpoint to return images and text
-@app.route('/api/', methods=['GET'])
+@app.route('/', methods=['GET'])
 def get_images():
   return jsonify(data)
 
